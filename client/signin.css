@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: rgb(173, 108, 234);
+
+}
+.second{
+    width: 60%;
+    height: 80vh;
+}
+.signin-image{
+    width:80%;
+}
+.sign{
+    color: #ff2770;
+}
+.logo{
+    width: 50px;
+}
+.sub-nav {
+    color: #ff2770;
+}
+.your{
+    color: #ff2770;
+    font-size: 20px;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color:#000;
+    font-weight: 600;
+    border-bottom: 2px solid #fff;
+    padding-right: 23px;
+}
+.input-box input:focus,
+.input-box input:valid{
+    border-bottom: 2px solid #ff2770;
+    transition: .5s;
+}
+
+.btn1{
+    position: relative;
+    width: 80%;
+    height: 45px;
+    background: transparent;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #ff2770;
+    overflow: hidden;
+    z-index: 1;
+    color: #ff2770;
+}
+
+
+/* .input-box label{
+    position: absolute;
+    top:50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #fff;
+    transition: .5s;
+} */
+.input-box input:focus ~ label,
+.input-box input:valid ~ label{
+    top: -5px;
+    color: #ff2770;
+}
+label{
+    color: #ff2770;
+    transition: .5s;
+    transform: translateY(-50%);
+}
